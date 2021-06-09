@@ -18,7 +18,7 @@ Tabela de conteúdos
 <p>O BOT é focado no jogo PokeXGames ou conhecido também por PXG. O BOT está em https://replit.com/</br>
 <p>Dentro do jogo a captura de pokemons é especulado que tenha uma fórmula, ou é puramente sorte.</br>
 <p>No site http://pokexgames-tutoriais.blogspot.com/p/media-de-balls.html#axzz6x1tSndEM você pode informar o nome de um pokemon que retornará a média de balls dele.</br>
-Perguntando pra alguns jogadores todos entram em concorrdância que o site é ruim, lento, poluído e queria algo melhor.</br>
+<p>Perguntando pra alguns jogadores todos entram em concorrdância que o site é ruim, lento, poluído e queria algo melhor.</br>
 <p>Perguntei pra equipe do PXG se tinha alguma API pra conseguir essas informações, não têm.</br>
 <p>Não sei de onde que esse site da média recebe as informações então comecei a fazer testes e pensar numa fórmula.</br>
 <p>Cheguei aproximadamente nisso:</p>
