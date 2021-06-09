@@ -26,24 +26,24 @@ Cheguei aproximadamente nisso:
 A margem de erro é baixa e pouquissímos pokemons fogem dessa margem. Ex: Tentacruel, Pidgeotto, provavelmente tem mais.</br>
 
 ## Explicação
-Essa fórmula foi baseada em algumas informações que achei.
-1- No site do média de ball que coloquei o link ali encima, tem no final da página isto: "O sistema de médias faz um cálculo automático, com base no valor do pokemon no NPC e da ball que está sendo usada".
-2- PXG tem uma função que nomearam como Sistema de Catch, que consiste em aumentar as chances de captura em pokemons cujo valor gasto em pokeball compradas num NPC seja maior que o preço do pokemon vendido num outro NPC.
-Levando em conta isso, peguei o preço do pokemon e dividi por 65 que é 130 o valor de uma ultraball porém dividida por 2. Depois encima desse valor acrescento 9%, que seria x1,09.
-O número resultante é a média de ultraballs pra capturar o pokemon.
-O BOT lê um arquivo CSV e procura o preço do pokemon no NPC. Eu tirei essa tabela desse site: https://wiki.pokexgames.com/index.php/NPC_Heather_(Pok%C3%A9mon).
+Essa fórmula foi baseada em algumas informações que achei.</br>
+1- No site do média de ball que coloquei o link ali encima, tem no final da página isto: "O sistema de médias faz um cálculo automático, com base no valor do pokemon no NPC e da ball que está sendo usada".</br>
+2- PXG tem uma função que nomearam como Sistema de Catch, que consiste em aumentar as chances de captura em pokemons cujo valor gasto em pokeball compradas num NPC seja maior que o preço do pokemon vendido num outro NPC.</br>
+Levando em conta isso, peguei o preço do pokemon e dividi por 65 que é 130 o valor de uma ultraball porém dividida por 2. Depois encima desse valor acrescento 9%, que seria x1,09.</br>
+O número resultante é a média de ultraballs pra capturar o pokemon.</br>
+O BOT lê um arquivo CSV e procura o preço do pokemon no NPC. Eu tirei essa tabela desse site: https://wiki.pokexgames.com/index.php/NPC_Heather_(Pok%C3%A9mon).</br>
 O arquivo CSV tem uma coluna que quando valor é 1, o pokemon não está no Sistema de Catch. Se está ou não o BOT te informa na pesquisa de um pokemon que não esteja. Exemplo: Jolteon.
 
 ## Funcionamento
-O BOT tem 4 comandos, por enquanto.
-1- $media Nome_Pokemon  
-2- $help
-3- $ballNome_Pokemon
-4- $sistema
+O BOT tem 4 comandos, por enquanto.</br>
+1- $media Nome_Pokemon</br>  
+2- $help</br>
+3- $ballNome_Pokemon</br>
+4- $sistema</br>
 
-1- Vê a média de ultraball na minha fórmula.
-2- Mostrar os comandos que o BOT possui.
-3- Caso tenha o pokemon mencionado irá informar as balls que são médias. Tem alguns pokemons registrados, isso porque a informação é manualmente.
-4- Explica o que é o Sistema de Catch.
+1- Vê a média de ultraball na minha fórmula.</br>
+2- Mostrar os comandos que o BOT possui.</br>
+3- Caso tenha o pokemon mencionado irá informar as balls que são médias. Tem alguns pokemons registrados, isso porque a informação é manualmente.</br>
+4- Explica o que é o Sistema de Catch.</br>
 ## Updates
 Gostaria de implementar mais funções para identifcar outras informações como: onde tem mais desse pokemon, suas fraquezas, seu level etc.
