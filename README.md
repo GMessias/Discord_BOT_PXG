@@ -21,11 +21,13 @@ Tabela de conteúdos
 Perguntando pra alguns jogadores todos entram em concorrdância que o site é ruim, lento, poluído e queria algo melhor.</br>
 <p>Perguntei pra equipe do PXG se tinha alguma API pra conseguir essas informações, não têm.</br>
 <p>Não sei de onde que esse site da média recebe as informações então comecei a fazer testes e pensar numa fórmula.</br>
-<p>Cheguei aproximadamente nisso:</p> 
+<p>Cheguei aproximadamente nisso:</p>
+
 ```
 (Preço_Pokemon_NPC / 65) * 1,09
 ```
-A margem de erro é baixa e pouquissímos pokemons fogem dessa margem. Ex: Tentacruel, Pidgeotto, provavelmente tem mais.</br>
+
+<p>A margem de erro é baixa e pouquissímos pokemons fogem dessa margem. Ex: Tentacruel, Pidgeotto, provavelmente tem mais.</br>
 
 ## Explicação
 Essa fórmula foi baseada em algumas informações que achei.</br>
